@@ -1,5 +1,10 @@
+import Navegacion from './components/Navegacion';
+
 const Index = () => (
-  <p>Hola mundo</p>
+  <div>
+    <Navegacion />
+    <p>Hola mundo!</p>
+  </div>
 )
 
 export default Index;
