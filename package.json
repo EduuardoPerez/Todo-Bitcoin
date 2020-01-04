@@ -1,0 +1,26 @@
+{
+  "name": "todobitcoin",
+  "version": "1.0.0",
+  "description": "Portal with news, quotation and upcoming events about Bitcoin. Consume three APIs at the same time and render from the server side (server side rendering - SSR -) using NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "buil": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/EduuardoPerez/todobitcoin.git"
+  },
+  "author": "Eduardo Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/EduuardoPerez/todobitcoin/issues"
+  },
+  "homepage": "https://gitlab.com/EduuardoPerez/todobitcoin#readme",
+  "dependencies": {
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
