@@ -3,10 +3,14 @@ import Link from 'next/link' // Link is used instead of the react router
 const Navegacion = () => (
   <div>
     <ul>
+      <h1>Nombre del sitio</h1>
       <li><Link href="/"><a>Inicio</a></Link></li>
       <li><Link href="/nosotros"><a>Nosotros</a></Link></li>
     </ul>
     <style jsx>{`
+      h1{
+        color: red;
+      }
       ul {
         background-color: #333;
         list-style: none;
